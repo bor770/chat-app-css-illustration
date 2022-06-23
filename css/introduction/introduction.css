@@ -1,0 +1,11 @@
+.introduction {
+  margin-inline: auto;
+  text-align: center;
+}
+
+@media (min-width: 1400px) {
+  .introduction {
+    align-self: center;
+    text-align: left;
+  }
+}

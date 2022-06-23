@@ -1,0 +1,9 @@
+.app__says-walker {
+  background-color: #ede5f4;
+  border-radius: 5px;
+  color: var(--moderate-violet);
+  font-size: 0.53rem;
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 125px;
+}

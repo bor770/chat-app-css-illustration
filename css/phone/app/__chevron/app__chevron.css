@@ -1,0 +1,11 @@
+.app__chevron {
+  aspect-ratio: 1;
+  align-items: center;
+  background-color: var(--very-dark-desaturated-violet);
+  border-radius: 50%;
+  color: var(--white);
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  width: 20px;
+}

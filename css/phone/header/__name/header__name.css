@@ -1,0 +1,6 @@
+.header__name {
+  font-size: 0.7rem;
+  grid-area: name;
+  letter-spacing: 0.5px;
+  padding-left: 5px;
+}

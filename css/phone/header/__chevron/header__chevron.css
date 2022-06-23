@@ -1,0 +1,5 @@
+.header__chevron {
+  align-self: center;
+  font-size: 0.5rem;
+  grid-area: chevron;
+}

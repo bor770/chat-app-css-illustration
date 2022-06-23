@@ -1,0 +1,10 @@
+.app__says-customer {
+  background-color: var(--white);
+  border-radius: 5px;
+  color: var(--desaturated-dark-violet);
+  font-size: 0.53rem;
+  margin: 0 0 10px auto;
+  max-width: 130px;
+  padding: 5px;
+  width: fit-content;
+}

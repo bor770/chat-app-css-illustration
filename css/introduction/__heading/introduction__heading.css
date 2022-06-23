@@ -1,0 +1,13 @@
+.introduction__heading {
+  color: var(--very-dark-desaturated-violet);
+  font-size: 2.3rem;
+  margin-bottom: 35px;
+}
+
+@media (min-width: 1400px) {
+  .introduction__heading {
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-bottom: 25px;
+  }
+}

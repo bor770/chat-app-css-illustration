@@ -1,0 +1,7 @@
+.header__avatar {
+  aspect-ratio: 1;
+  border: var(--white) solid 1px;
+  border-radius: 50px;
+  grid-area: avatar;
+  width: 25px;
+}

@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+@import url(../fontawesome-free-6.0.0-web/css/all.css);
+@import url(__background/body__background.css);
+@import url(__phone/body__phone.css);
+@import url(background/background.css);
+@import url(introduction/introduction.css);
+@import url(introduction/__heading/introduction__heading.css);
+@import url(introduction/__text/introduction__text.css);
+@import url(phone/phone.css);
+@import url(phone/app/app.css);
+@import url(phone/app/__chevron/app__chevron.css);
+@import url(phone/app/__image/app__image.css);
+@import url(phone/app/__price/app__price.css);
+@import url(phone/app/__radio-button/app__radio-button.css);
+@import url(phone/app/__says-customer/app__says-customer.css);
+@import url(phone/app/__says-customer/_images/app__says-customer_images.css);
+@import url(phone/app/__says-customer/_last/app__says-customer_last.css);
+@import url(phone/app/__says-walker/app__says-walker.css);
+@import url(phone/app/__says-walker/_last/app__says-walker_last.css);
+@import url(phone/app/__says-walker/_price-list/app__says-walker_price-list.css);
+@import url(phone/app/__type/app__type.css);
+@import url(phone/header/header.css);
+@import url(phone/header/__available/header__available.css);
+@import url(phone/header/__avatar/header__avatar.css);
+@import url(phone/header/__chevron/header__chevron.css);
+@import url(phone/header/__ellipsis/header__ellipsis.css);
+@import url(phone/header/__name/header__name.css);
+@import url(phone/header/__top-line/header__top-line.css);
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --pale-violet: hsl(276, 100%, 81%);
+  --moderate-violet: hsl(276, 55%, 52%);
+  --desaturated-dark-violet: hsl(271, 15%, 43%);
+  --grayish-blue: hsl(206, 6%, 79%);
+  --very-dark-desaturated-violet: hsl(271, 36%, 24%);
+  --dark-grayish-violet: hsl(270, 7%, 64%);
+  --light-magenta: hsl(293, 100%, 63%);
+  --light-violet: hsl(264, 100%, 61%);
+  --white: hsl(0, 0%, 100%);
+  --light-grayish-violet: hsl(270, 20%, 96%);
+  --very-light-magenta: hsl(289, 100%, 72%);
+  font: 16px 'Rubik', sans-serif;
+}
+
+.body {
+  background-color: var(--light-grayish-violet);
+  padding: 65px 35px 0;
+}
+
+@media (min-width: 1400px) {
+  .body {
+    display: flex;
+    gap: 125px;
+    height: 100vh;
+    padding: 150px 18vw 150px 25.2vw;
+  }
+}

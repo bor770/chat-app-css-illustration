@@ -1,0 +1,11 @@
+.app__says-walker_price-list {
+  align-items: center;
+  background-image: linear-gradient(to right, var(--light-magenta), var(--light-violet));
+  border-radius: 10px 10px 10px 5px;
+  color: var(--white);
+  display: flex;
+  gap: 5px;
+  height: 30px;
+  padding-inline: 5px 15px;
+  width: 160px;
+}

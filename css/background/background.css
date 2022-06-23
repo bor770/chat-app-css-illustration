@@ -1,0 +1,15 @@
+.background {
+  background-image: linear-gradient(var(--light-magenta), var(--light-violet));
+  border-bottom-right-radius: 50vh;
+  height: 500px;
+  width: 50vw;
+  z-index: -1;
+}
+
+@media (min-width: 1400px) {
+  .background {
+    border-bottom-left-radius: 400px;
+    height: 700px;
+    width: calc(25.2vw + 160px);
+  }
+}

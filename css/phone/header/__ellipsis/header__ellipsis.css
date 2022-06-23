@@ -1,0 +1,6 @@
+.header__ellipsis {
+  align-self: center;
+  font-size: 0.7rem;
+  justify-self: end;
+  grid-area: ellipsis;
+}

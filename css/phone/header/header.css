@@ -1,0 +1,14 @@
+.header {
+  background-image: linear-gradient(to right, var(--light-violet), var(--light-magenta));
+  border-radius: 15px 15px 5px 5px;
+  color: var(--white);
+  display: grid;
+  grid-template-areas: 
+    ".       .      top-line  .       "
+    "chevron avatar name      ellipsis"
+    "chevron avatar available ellipsis";
+  grid-template-columns: 10px 25px 130px 35px;
+  grid-template-rows: 30px 15px 10px;
+  height: 65px;
+  padding: 0 15px 10px;
+}

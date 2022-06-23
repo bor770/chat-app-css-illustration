@@ -1,0 +1,9 @@
+.introduction__text {
+  color: var(--dark-grayish-violet);
+}
+
+@media (min-width: 1400px) {
+  .introduction__text {
+    line-height: 1.7;
+  }
+}
